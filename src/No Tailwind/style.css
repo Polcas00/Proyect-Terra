@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+    height: 60px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -2px -2px 5px #000;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: rgb(207, 0, 41);
+}
+
+.barra {
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #333;
+
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    background-image: url(../../imgs/HEADER2-IMG.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.call{
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+    width: 70%;
+    border: 5px solid orange;
+    border-radius: 10px;
+    float: right;
+    margin: 30px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.call h1{
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+.call a{
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.call a:hover {
+    background-color: #333;
+}
+
+.secciones h2 {
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.sec {
+    height: 700px;
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+footer a{
+    color: orange;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.redes {
+    letter-spacing: 15px;
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 29px;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* centrado en eje vertical */
+    align-items: center;
+    align-content: center;
+}
+
+.caja {
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    border: 3px solid #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.caja2{
+    line-height: 20px;
+    order: 0;
+    flex-basis: 120px;
+    flex-grow: 2;
+    flex-shrink:initial; /* Me perdi la explicacion de esto */
+}
+
+.caja4{
+    line-height: 180px;
+    order: 0;
+    flex-basis: 120px;
+    flex-grow: 4;
+}
