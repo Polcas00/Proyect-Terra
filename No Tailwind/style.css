@@ -48,8 +48,6 @@ header {
     display: inline-block;
 }
 
-nav {}
-
 nav a {
     text-decoration: none;
     font-weight: bold;
@@ -330,7 +328,7 @@ form #submit {
     border: 1px solid #000;
     border-radius: 6px;
     box-shadow: 0 0 8px #000;
-    background-image: linear-gradient(to bottom right, #FFF, #DDD);
+    background-image: linear-gradient(to bottom right, #FFF, #BBB);
 }
 
 .card-img-us {
