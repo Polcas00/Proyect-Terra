@@ -20,12 +20,12 @@ header {
 }
 
 .header-index {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.657);
     position: fixed;
 }
 
 .header {
-    background-color: rgba(108, 185, 216, 0.377);
+    background-color: rgba(108, 185, 216, 0.31);
     position: static;
 }
 
@@ -129,7 +129,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 100px;
     padding: 30px;
 }
 
@@ -245,7 +245,7 @@ footer div {
     justify-content: center;
 }
 
-form {
+.form-contact {
     width: 50%;
     background-color: #00000081;
     border-radius: 5px;
@@ -253,21 +253,21 @@ form {
     padding: 20px 40px;
 }
 
-form h2 {
+.form-contact h1 {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 25px;
 }
-form h3 {
+.form-contact h3 {
     text-align: center;
     font-size: 18px;
     color: #fff;
     padding-bottom: 25px;
 }
 
-form input {
+.form-contact input {
     width: 100%;
     font-size: 20px;
     background-color: transparent;
@@ -278,18 +278,18 @@ form input {
     color: #fff;
 }
 
-form input:focus {
+.form-contact input:focus {
     color: #fff;
 }
-form input:checked {
-    color: #fff;
-}
-
-form input::placeholder {
+.form-contact input:checked {
     color: #fff;
 }
 
-form textarea {
+.form-contact input::placeholder {
+    color: #fff;
+}
+
+.form-contact textarea {
     width: 100%;
     font-size: 20px;
     background-color: transparent;
@@ -300,15 +300,15 @@ form textarea {
     margin-top: 10px;
 }
 
-form textarea:focus {
+.form-contact textarea:focus {
     color: #fff;
 }
 
-form textarea::placeholder {
+.form-contact textarea::placeholder {
     color: #fff;
 }
 
-form #submit {
+.form-contact #submit {
     background-color: rgba(255, 166, 0, 0.873);
     font-size: 25px;
     border: 4px solid #000;
@@ -355,4 +355,61 @@ form #submit {
     color: orange;
     text-decoration: none;
     font-size: 25px;
+}
+
+/* LOGIN.HTML */
+.sec-log {
+    height: 85vh;
+}
+
+.card-log {
+    height: 580px;
+    width: 450px;
+    background-color: #fff;
+    text-align: center;
+    border: 4px inset #3B94CB;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+}
+
+.card-img-log {
+    height: 400px;
+    width: 90%;
+    background-image: url(../imgs/FONDO-BLANCO.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.form-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-log label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-log input {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+#submit-log {
+    margin-top: 10px;
+    width: 100px;
+    padding: 8px;
+    font-size: 15px;
+    background: rgba(255, 166, 0, 0.558);
+    font-weight: bold;
+}
+
+#submit-log:hover {
+    background-color: #333;
+    color: #fff;
 }
